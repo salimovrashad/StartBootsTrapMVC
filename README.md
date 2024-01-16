@@ -1,2 +1,2 @@
-admin@admin.com
-Admin123!
+Admin Email: admin@admin.com
+Admin Password : Admin123!
