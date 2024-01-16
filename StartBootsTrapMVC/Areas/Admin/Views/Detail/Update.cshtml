@@ -1,0 +1,24 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using StartBootsTrapMVC.Areas.Admin.ViewModels
+@model UpdateDetailItem
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div class="container">
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="ImageURL" class="form-label">Email address</label>
+            <input asp-for="ImageURL" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Password</label>
+            <input asp-for="Name" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Password</label>
+            <input asp-for="Description" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
